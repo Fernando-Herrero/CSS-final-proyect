@@ -63,7 +63,7 @@ body {
 
 /* navbar-hamburguer-menu */
 
-.nav-mobile {
+.navbar-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -82,19 +82,19 @@ body {
 	padding: 4px;
 }
 
-.nav-mobile ul {
+.navbar-container ul {
 	display: none;
 }
 
-.nav-mobile input:checked ~ ul {
+.navbar-container input:checked ~ ul {
 	display: block;
 }
 
-.nav-mobile input {
+.navbar-container input {
 	display: none;
 }
 
-.nav-mobile label {
+.navbar-container label {
 	box-sizing: border-box;
 	display: inline-block;
     user-select: none;
