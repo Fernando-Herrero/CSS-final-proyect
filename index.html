@@ -22,8 +22,124 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="styles/index.css" />
-        <link rel="shortcut icon" href="/media/logos/Logo.webp" type="image/x-icon">
+		<link
+			rel="shortcut icon"
+			href="/media/logos/Logo.webp"
+			type="image/x-icon"
+		/>
 		<title>Document</title>
 	</head>
-	<body></body>
+	<body>
+		<nav class="nav-mobile container">
+			<img class="website-logo" src="/media/logos/Logo.webp" alt="website logo" />
+
+            <div class="menu-desktop">
+                <a href="#">
+                    <img src="/media/images/coocking.png" alt="icon pan">
+                    <p>Cooking Classes</p>
+                </a>
+                <a href="#"></a>
+                    <img src="/media/images/chef.png" alt="icon chef hat">
+                    <p> Become A Chef</p>
+                </a>
+                <a href="#"></a>
+                    <img src="/media/images/group-coocking.png" alt="icon group cooking">
+                    <p>Group Cooking</p>
+                </a>
+            </div>
+
+            <div class="currencies-leng">
+                <div>
+                    <p>Eng</p>
+                    <img src="/media/images/arrow-down.svg" alt="down arrow">
+                </div>
+                <div>
+                    <p>USD</p>
+                    <img src="/media/images/arrow-down.svg" alt="down arrow">
+                </div>
+                <img src="/media/images/info.svg" alt="info icon" width="20">
+                <form action="login">
+                    <button type="submit"> <span>Log In</span><img src="/media/images/log-in.svg" alt="icon log in"></button>
+                </form>
+            </div>
+
+
+			<div class="manu-hamburguer-container">
+				<input type="checkbox" id="hamburguer-menu" />
+				<label for="hamburguer-menu">
+					<img
+						class="hamburguer-icon"
+						src="/media/logos/icons8-menú-32.png"
+						alt="hamburguer-menu"
+					/>
+				</label>
+				<ul>
+					<li><a href="#">Cooking Classes</a></li>
+					<li><a href="#">Become a Chef</a></li>
+					<li><a href="#">Group Cooking</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#">English</a></li>
+					<li><a href="#">Currency</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<main>
+			<picture>
+				<source
+					srcset="/images/chica-en-rio-480w.avif"
+					media="(max-width: 480px)"
+				/>
+				<source
+					srcset="/images/chica-en-rio-800w.avif"
+					media="(max-width: 800px)"
+				/>
+				<source
+					srcset="/images/chica-en-rio-1200w.avif"
+					media="(max-width: 1200px)"
+				/>
+				<source
+					srcset="/images/chica-en-rio-1800w.avif"
+					media="(max-width: 1800px)"
+				/>
+
+				<source
+					srcset="/images/chica-en-rio-480w.webp"
+					media="(max-width: 480px)"
+				/>
+				<source
+					srcset="/images/chica-en-rio-800w.webp"
+					media="(max-width: 800px)"
+				/>
+				<source
+					srcset="/images/chica-en-rio-1200w.webp"
+					media="(max-width: 1200px)"
+				/>
+				<source
+					srcset="/images/chica-en-rio-1800w.webp"
+					media="(max-width: 1800px)"
+				/>
+
+				<source
+					srcset="/images/chica-en-rio-480w.jpg"
+					media="(max-width: 480px)"
+				/>
+				<source
+					srcset="/images/chica-en-rio-800w.jpg"
+					media="(max-width: 800px)"
+				/>
+				<source
+					srcset="/images/chica-en-rio-1200w.jpg"
+					media="(max-width: 1200px)"
+				/>
+
+				<img
+					src="/images/chica-en-rio-1800w.jpg"
+					alt="Una chica"
+					width="100%"
+					loading="lazy"
+				/>
+			</picture>
+		</main>
+	</body>
 </html>
