@@ -91,7 +91,13 @@
 	.header-main-text {
 		order: 0;
 		flex: 1;
+        text-align: left;
+        align-items: flex-start;
 	}
+
+    .buttons-header {
+        justify-content: flex-start;
+    }
 
 	.header-picture {
 		order: 1;
