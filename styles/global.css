@@ -53,6 +53,7 @@ a {
 
 body {
 	background-color: var(--bg-color);
+    margin: 0;
 }
 
 .container {
@@ -66,6 +67,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+    margin-top: 20px;
 }
 
 .website-logo {
@@ -117,6 +119,16 @@ body {
     gap: 40px;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.hero-vector {
+    display: none;
 }
 
 .card-david {
