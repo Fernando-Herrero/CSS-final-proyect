@@ -1,4 +1,4 @@
-@media (min-width: 481px) {
+@media (min-width: 700px) {
 	:root {
 		--container-width: 90%;
 	}
@@ -35,26 +35,35 @@
 		padding-top: 40px;
 	}
 
-	.header-picture {
-		width: 70%;
+    .header-picture-mobile {
+        display: none;
+    }
+
+    .container-for-tablet {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+	.header-picture-desktop {
+        display: flex;
 		align-self: center;
+        width: 90%;
 	}
 
-	.header-picture img {
+	.header-picture-desktop img {
 		border-radius: 20px;
 	}
 
 	.card-david {
 		width: 260px;
-		margin-right: 372px;
-		margin-top: -188px;
+		align-self: flex-start;
+		margin-top: -172px;
 	}
 
 	.hero-vector {
 		display: flex;
 		align-self: end;
 		position: relative;
-		margin-right: 98px;
 		margin-top: -113px;
 	}
 
@@ -100,6 +109,15 @@
 		gap: 4px;
 	}
 
+    .header-section {
+        gap: 120px;
+    }
+
+    .container-for-tablet {
+        width: 90%;
+        margin: 0 auto;
+    }
+
 	.main-header {
 		flex-direction: row;
 		align-items: center;
@@ -125,16 +143,20 @@
 		justify-content: flex-start;
 	}
 
-	.header-picture {
+	.header-picture-desktop {
 		order: 1;
 		flex: 1;
 		display: flex;
 		justify-content: center;
 	}
 
-	.header-picture img {
-		width: 70%;
+	.header-picture-desktop img {
+		width: 80%;
 	}
+
+    .header-statics {
+        width: 70%;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
