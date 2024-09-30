@@ -461,11 +461,52 @@ p {
 .works {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 36px;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
 .works img[alt="Orange vector"] {
     width: 36px;
+}
+
+.works-main-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.works-article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.works-article-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.works-numbers {
+    display: none;
+}
+
+.works-picture {
+    display: block;
+    align-self: center;
+
+}
+
+.works-article-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.works-article-text button {
+    align-self: center;
+}
+
+.works-select-negative-margin {
+    margin-top: -60px;
 }
