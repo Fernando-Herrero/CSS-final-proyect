@@ -3,21 +3,21 @@
 		--container-width: 90%;
 	}
 
-    h1 {
-        font-size: 36px;
-    }
+	h1 {
+		font-size: 36px;
+	}
 
-    h2 {
-        font-size: 28px;
-    }
+	h2 {
+		font-size: 28px;
+	}
 
-    h3 {
-        font-size: 24px;
-    }
+	h3 {
+		font-size: 24px;
+	}
 
-    h4 {
-        font-size: 18px;
-    }
+	h4 {
+		font-size: 18px;
+	}
 
 	.menu-hamburguer-container {
 		display: none;
@@ -51,7 +51,7 @@
 		padding-top: 40px;
 	}
 
-	.container-for-header {
+	.special-container-header {
 		width: 80%;
 		margin: 0 auto;
 	}
@@ -62,7 +62,8 @@
 		width: 90%;
 	}
 
-	.header-picture img {
+	.special-picture img {
+		width: 80%;
 		border-radius: 20px;
 	}
 
@@ -91,78 +92,81 @@
 	}
 
 	.divider {
-        display: inline;
+		display: inline;
 		width: 100vw;
 		height: 1px;
 		background-color: var(--border-color);
 		position: absolute;
-        z-index: -1;
+		z-index: -1;
 		/* top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%); */
 	}
 
-    /*main section 1*/
-    .explore-and-learn-title p {
-        display: block;
-    }
+	/*main section 1*/
+	.explore-and-learn-title p {
+		display: block;
+	}
 
-    .explore-and-learn-title {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+	.explore-and-learn-title {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
 
-    .explore-and-learn-title img {
-        align-self: flex-start;
-    }
+	.explore-and-learn-title img {
+		align-self: flex-start;
+	}
 
-    .explore-and-learn-title-text {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
+	.explore-and-learn-title-text {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
 
-    .explore-and-learn-grid {
-        grid-template: 
-        "bakery vegan" 1fr
-        "seafood bbq" 1fr
-        "wine cake" 1fr / 1fr 1fr; 
-    }
+	.explore-and-learn-grid {
+		grid-template:
+			"bakery vegan" 1fr
+			"seafood bbq" 1fr
+			"wine cake" 1fr / 1fr 1fr;
+	}
 
-    .bakery {
-        grid-area: bakery;
-    }
+	.bakery {
+		grid-area: bakery;
+	}
 
-    .vegan {
-        grid-area: vegan;
-    }
+	.vegan {
+		grid-area: vegan;
+	}
 
-    .seafood {
-        grid-area: seafood;
-    }
+	.seafood {
+		grid-area: seafood;
+	}
 
-    .bbq {
-        grid-area: bbq;
-    }
+	.bbq {
+		grid-area: bbq;
+	}
 
-    .wine {
-        grid-area: wine;
-    }
+	.wine {
+		grid-area: wine;
+	}
 
-    .cake {
-        grid-area: cake;
-    }
+	.cake {
+		grid-area: cake;
+	}
 
-    /*section 2*/
-    .unique-benefits-articles {
-        max-width: 70%;
-    }
+	/*section 2*/
+	.unique-benefits-articles {
+		max-width: 70%;
+	}
 
-    .unique-benefits-title p {
-        display: block;
-    }
-    
+	.unique-benefits-title p {
+		display: block;
+	}
+
+	/*section3*/
+	.level-up {
+	}
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -171,21 +175,21 @@
 		--container-width: 90%;
 	}
 
-    h1 {
-        font-size: 42px;
-    }
+	h1 {
+		font-size: 42px;
+	}
 
-    h2 {
-        font-size: 32px;
-    }
+	h2 {
+		font-size: 32px;
+	}
 
-    h3 {
-        font: 28px;
-    }
+	h3 {
+		font: 28px;
+	}
 
-    h4 {
-        font-size: 20px;
-    }
+	h4 {
+		font-size: 20px;
+	}
 
 	.navbar {
 		padding-bottom: 20px;
@@ -216,7 +220,7 @@
 		gap: 120px;
 	}
 
-	.container-for-header {
+	.special-container-header {
 		width: 90%;
 		margin: 0 auto;
 	}
@@ -246,14 +250,14 @@
 		justify-content: flex-start;
 	}
 
-	.header-picture {
+	.special-picture {
 		order: 1;
 		flex: 1;
 		display: flex;
 		justify-content: center;
 	}
 
-	.header-picture img {
+	.special-picture img {
 		width: 90%;
 	}
 
@@ -261,22 +265,22 @@
 		width: 70%;
 	}
 
-    .explore-and-learn-title a {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
+	.explore-and-learn-title a {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
 
-    img[alt="magnnifying glass"] {
-        width: 20px;
-    }
+	img[alt="magnnifying glass"] {
+		width: 20px;
+	}
 
-    .unique-benefits-articles {
-        max-width: 100%;
-        flex-direction: row;
-        padding-top: 40px;
-        gap: 32px;
-    }
+	.unique-benefits-articles {
+		max-width: 100%;
+		flex-direction: row;
+		padding-top: 40px;
+		gap: 32px;
+	}
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
