@@ -398,3 +398,54 @@ p {
     margin-bottom: 60px;
 }
 
+.level-up {
+    width: 300px;
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    transform: translateY(-100px);
+} 
+
+.level-up-title {
+    display: flex;
+    justify-content: right;
+    gap: 4px;
+}
+
+.level-up p {
+    color: var(--bg-color);
+}
+
+.other-benefits-main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.other-benefits-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.other-benefits-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.other-benefits-article-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
