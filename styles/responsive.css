@@ -4,7 +4,19 @@
 	}
 
     h1 {
-        font-size: 32px;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
     }
 
 	.menu-hamburguer-container {
@@ -141,6 +153,16 @@
     .cake {
         grid-area: cake;
     }
+
+    /*section 2*/
+    .unique-benefits-articles {
+        max-width: 70%;
+    }
+
+    .unique-benefits-title p {
+        display: block;
+    }
+    
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -151,6 +173,18 @@
 
     h1 {
         font-size: 42px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font: 28px;
+    }
+
+    h4 {
+        font-size: 20px;
     }
 
 	.navbar {
@@ -236,12 +270,18 @@
     img[alt="magnnifying glass"] {
         width: 20px;
     }
+
+    .unique-benefits-articles {
+        max-width: 100%;
+        flex-direction: row;
+        padding-top: 40px;
+        gap: 32px;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
 @media (min-width: 1440px) {
 	:root {
-		--bg-color: aquamarine;
 		--container-width: 85%;
 	}
 }
