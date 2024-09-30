@@ -186,7 +186,10 @@
     .works-article-text button {
         align-self: flex-start;
     }
-    
+
+    .works-card-money {
+        width: 70%;
+    }
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */

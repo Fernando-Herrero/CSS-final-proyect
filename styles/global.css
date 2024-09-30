@@ -509,3 +509,39 @@ p {
 .works-select-negative-margin {
     margin-top: -60px;
 }
+
+.works-card-money {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    gap: 16px;
+    width: 300px;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.works-card-money-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: -92px;
+}
+
+.works-card-money-imgs img[alt="Icon big vector"] {
+    width: 42px;
+    margin-left:72px;
+    margin-bottom: -20px;
+}
+
+.works-card-money-imgs img[alt="Icon small vector"] {
+    width: 32px;
+    margin-left:96px;
+    margin-bottom: -18px;
+}
