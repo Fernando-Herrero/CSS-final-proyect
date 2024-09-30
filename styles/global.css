@@ -399,17 +399,22 @@ p {
     margin-bottom: 60px;
 }
 
+.other-benefits picture {
+    text-align: center;
+}
+
 .level-up {
-    width: 300px;
+    width: 250px;
     background-color: var(--secondary-color);
     color: var(--bg-color);
     display: flex;
     flex-direction: column;
     text-align: right;
     gap: 16px;
-    padding: 16px;
+    padding: 20px;
     border-radius: 8px;
-    transform: translateY(-100px);
+    margin-top: -80px;
+    position: relative;
 } 
 
 .level-up-title {
@@ -426,6 +431,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    padding-top: 20px;
 }
 
 .other-benefits-grid {
