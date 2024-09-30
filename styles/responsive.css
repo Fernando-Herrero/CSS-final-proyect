@@ -1,4 +1,4 @@
-@media (min-width: 700px) {
+@media (min-width: 600px) {
 	:root {
 		--container-width: 90%;
 	}
@@ -89,6 +89,58 @@
 		left: 50%;
 		transform: translate(-50%, -50%); */
 	}
+
+    /*main section 1*/
+    .explore-and-learn-title p {
+        display: block;
+    }
+
+    .explore-and-learn-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .explore-and-learn-title img {
+        align-self: flex-start;
+    }
+
+    .explore-and-learn-title-text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .explore-and-learn-grid {
+        grid-template: 
+        "bakery vegan" 1fr
+        "seafood bbq" 1fr
+        "wine cake" 1fr / 1fr 1fr; 
+    }
+
+    .bakery {
+        grid-area: bakery;
+    }
+
+    .vegan {
+        grid-area: vegan;
+    }
+
+    .seafood {
+        grid-area: seafood;
+    }
+
+    .bbq {
+        grid-area: bbq;
+    }
+
+    .wine {
+        grid-area: wine;
+    }
+
+    .cake {
+        grid-area: cake;
+    }
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -174,6 +226,16 @@
 	.header-statics {
 		width: 70%;
 	}
+
+    .explore-and-learn-title a {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    img[alt="magnnifying glass"] {
+        width: 20px;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */

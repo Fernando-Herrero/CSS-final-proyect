@@ -276,6 +276,10 @@ p {
     display: none;
 }
 
+.explore-and-learn-title img {
+    width: 32px;
+}
+
 .explore-and-learn-main-title {
     display: flex;
     align-items: center;
