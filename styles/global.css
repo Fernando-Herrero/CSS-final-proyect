@@ -283,11 +283,32 @@ p {
 }
 
 .explore-and-learn-article {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template: 
+    "img-one title icon" 0.5fr 
+    "img-one text text" 1fr / 1fr 2fr 1fr;
+    column-gap: 8px;
     padding: 16px;
     border-radius: 8px;
-    gap: 16px;
+}
+
+.explore-and-learn-title-img-one {
+    grid-area: img-one;
+    justify-self: center;
+    align-self: center;
+}
+
+.explore-and-learn-article h4 {
+    grid-area: title;
+}
+
+.explore-and-learn-icon {
+    grid-area: icon;
+    justify-self: flex-end;
+}
+
+.explore-and-learn-article p {
+    grid-area: text;
 }
 
 .explore-and-learn-color-one {
@@ -297,21 +318,6 @@ p {
 
 .explore-and-learn-color-one p {
     color: var(--bg-color);
-}
-
-.explore-and-learn-article-text {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.explore-and-learn-article-text 
-
-.explore-and-learn-article-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 16px;
 }
 
 .explore-and-learn-border {
@@ -330,3 +336,4 @@ p {
     align-items: center;
     gap: 8px;
 }
+
