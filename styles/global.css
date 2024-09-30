@@ -13,7 +13,7 @@ body {
 	scroll-behavior: smooth;
 }
 
-h1, h2, h3  {
+h1, h2, h3, h4  {
     font-family: "Rubik", -apple-system,
 		BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -54,7 +54,8 @@ a {
 
 :root {
 	--bg-color: #fff;
-	--lettle-color: #000;
+	--text-color: #000;
+    --secondary-text-color: #403d39;
 	--secondary-color: #d17723;
 	--bg-secondary: #fffdf4;
 	--border-color: #f8a65a;
@@ -74,6 +75,10 @@ body {
 
 h1 {
     font-size: 28px;
+}
+
+p {
+    color: var(--secondary-text-color);
 }
 
 /* navbar-hamburguer-menu */
@@ -253,4 +258,75 @@ h1 {
 
 .divider {
     display: none;
+}
+
+/*main*/
+/*section1*/
+.explore-and-learn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.explore-and-learn-title p {
+    display: none;
+}
+
+.explore-and-learn-title a {
+    display: none;
+}
+
+.explore-and-learn-main-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.explore-and-learn-article {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+.explore-and-learn-color-one {
+    background-color:var(--secondary-color);
+    color: var(--bg-color);
+}
+
+.explore-and-learn-color-one p {
+    color: var(--bg-color);
+}
+
+.explore-and-learn-article-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.explore-and-learn-article-text 
+
+.explore-and-learn-article-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.explore-and-learn-border {
+    border: 1px solid var(--border-color);
+}
+
+.explore-and-learn-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 16px;
+}
+
+.explore-and-learn a[href="#showmore"] {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
 }

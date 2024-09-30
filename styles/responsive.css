@@ -160,14 +160,14 @@
 		justify-content: flex-start;
 	}
 
-	.header-picture-desktop {
+	.header-picture {
 		order: 1;
 		flex: 1;
 		display: flex;
 		justify-content: center;
 	}
 
-	.header-picture-desktop img {
+	.header-picture img {
 		width: 90%;
 	}
 
