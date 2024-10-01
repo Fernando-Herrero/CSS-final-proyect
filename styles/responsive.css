@@ -190,6 +190,37 @@
     .works-card-money {
         width: 70%;
     }
+
+    /*secction5*/
+.become-section {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+    .become-section picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    .become-article button {
+        align-self: flex-start;
+    }
+}
+
+/*section6*/
+
+.become-a-student {
+    width: 100%;
+    flex-direction: row;
+}
+
+.become-a-student picture {
+    flex: 1;
+    width: 90%;
+}
+
+.become-a-student-article{
+    flex: 1;
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -350,6 +381,21 @@
 
     .works-article-select {
         margin-bottom: -52px;
+    }
+
+    .become-section {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    .become-section picture {
+        flex: 1;
+    }
+
+    .become-article {
+        flex: 1;
     }
 
 }

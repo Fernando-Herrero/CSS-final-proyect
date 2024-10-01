@@ -267,7 +267,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
@@ -352,7 +352,7 @@ p {
     text-align: center;
     flex-direction: column;
     gap: 32px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
@@ -395,7 +395,7 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 32px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
@@ -462,7 +462,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 36px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
@@ -544,4 +544,57 @@ p {
     width: 32px;
     margin-left:96px;
     margin-bottom: -18px;
+}
+
+/*section5*/
+.become-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.become-article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.become-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.become-sub-article {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.become-sub-article img {
+    align-self: flex-start;
+    width: 16px;
+}
+
+.become-article a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/*section6*/
+.become-a-student {
+    background-color: var(--secondary-color);
+    color: var(--bg-color);    
+}
+
+.become-a-student p {
+    color: var(--bg-color);
+}
+
+.become-a-student button {
+    border: 1px solid var(--bg-color);
+    margin-bottom: 20px;
 }
