@@ -52,7 +52,7 @@
 	}
 
 	.special-container {
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 	}
 
@@ -166,61 +166,67 @@
 
 	/*section3*/
 	.level-up {
-        align-self: flex-start;
-        margin-top: -112px;
+		align-self: flex-start;
+		margin-top: -112px;
 	}
 
-    /*section4*/
-    .works-numbers {
-        display: block;
-        align-self: flex-start;
-        width: 100px;
-        position: absolute;
-    }
+	/*section4*/
+	.works-numbers {
+		display: block;
+		align-self: flex-start;
+		width: 100px;
+		position: absolute;
+	}
 
-    .works-picture {
-        width: 80%;
-        margin-top: 32px;
-    }
+	.works-picture {
+		width: 80%;
+		margin-top: 32px;
+	}
 
-    .works-article-text button {
-        align-self: flex-start;
-    }
+	.works-article-text button {
+		align-self: flex-start;
+	}
 
-    .works-card-money {
-        width: 70%;
-    }
+	.works-card-money {
+		width: 70%;
+	}
 
-    /*secction5*/
-.become-section {
-    margin-top: 100px;
-    margin-bottom: 60px;
-}
+	/*secction5*/
+	.become-section {
+		margin-top: 100px;
+		margin-bottom: 60px;
+	}
 
-    .become-section picture {
-        display: flex;
-        justify-content: center;
-    }
+	.become-section picture {
+		display: flex;
+		justify-content: center;
+	}
 
-    .become-article button {
-        align-self: flex-start;
-    }
-}
+	.become-article button {
+		align-self: flex-start;
+	}
 
-/*section6*/
+	/*section6*/
+	.become-a-student {
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
 
-.become-a-student {
-    width: 100%;
-    flex-direction: row;
-}
+	.become-a-student-box {
+		flex-direction: row;
+	}
 
-.become-a-student picture {
-    flex: 1;
-    width: 90%;
-}
+	.become-a-student-picture {
+		width: 40%;
+	}
 
-.become-a-student-article{
-    flex: 1;
+	.become-a-student-picture img {
+		border-radius: 16px;
+	}
+
+	.become-a-student-article {
+		width: 60%;
+	}
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -336,68 +342,79 @@
 		gap: 32px;
 	}
 
-    .other-benefits {
-        flex-direction: row;
-        gap: 0;
-    }
+	.other-benefits {
+		flex-direction: row;
+		gap: 0;
+	}
 
-    .other-benefits picture {
-        flex: 1;
-    }
+	.other-benefits picture {
+		flex: 1;
+	}
 
-    .other-benefits-main {
-        flex: 1;
-        order: 2;
-    }
+	.other-benefits-main {
+		flex: 1;
+		order: 2;
+	}
 
-    .other-benefits-article {
-        flex-direction: row;
-    }
+	.other-benefits-article {
+		flex-direction: row;
+	}
 
-    .other-benefits picture {
-        width: 100%;
-    }
+	.other-benefits picture {
+		width: 100%;
+	}
 
-    .level-up {
-        position: absolute;
-    }
+	.level-up {
+		position: absolute;
+	}
 
-    .works-article {
-        flex-direction: row;
-        align-items: center;
-    }
+	.works-article {
+		flex-direction: row;
+		align-items: center;
+	}
 
-    .works-select-img {
-        order: 1;
-    } 
-    
-    .works-article-text-select {
-        order: 0;
-    }
+	.works-select-img {
+		order: 1;
+	}
 
-    .works-select-negative-margin {
-        margin-top: 0;
-    }
+	.works-article-text-select {
+		order: 0;
+	}
 
-    .works-article-select {
-        margin-bottom: -52px;
-    }
+	.works-select-negative-margin {
+		margin-top: 0;
+	}
 
-    .become-section {
-        flex-direction: row;
-        align-items: center;
-        margin-top: 100px;
-        margin-bottom: 60px;
-    }
+	.works-article-select {
+		margin-bottom: -52px;
+	}
 
-    .become-section picture {
-        flex: 1;
-    }
+	.become-section {
+		flex-direction: row;
+		align-items: center;
+		margin-top: 100px;
+		margin-bottom: 60px;
+	}
 
-    .become-article {
-        flex: 1;
-    }
+	.become-section picture {
+		flex: 1;
+	}
 
+	.become-article {
+		flex: 1;
+	}
+
+	.become-a-student {
+		margin: 0 auto;
+		width: 90%;
+		border-radius: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+	}
+
+    .become-a-student button {
+        margin-bottom: 0;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
