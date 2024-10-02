@@ -207,26 +207,31 @@
 	}
 
 	/*section6*/
-	.become-a-student {
-		padding-top: 1px;
-		padding-bottom: 1px;
-	}
+    .become-a-student-main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+    }
 
-	.become-a-student-box {
-		flex-direction: row;
-	}
+    .picture-box {
+        display: flex;
+        width: 40%;
+    }
 
-	.become-a-student-picture {
-		width: 40%;
-	}
+    .picture-box img {
+        width: 100%;
+    }
+    /* .become-a-student-main picture {
+        width: 40%;
+    } */
 
-	.become-a-student-picture img {
-		border-radius: 16px;
-	}
-
-	.become-a-student-article {
-		width: 60%;
-	}
+    .become-a-student-article {
+        width: 60%;
+        padding: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -403,18 +408,6 @@
 	.become-article {
 		flex: 1;
 	}
-
-	.become-a-student {
-		margin: 0 auto;
-		width: 90%;
-		border-radius: 20px;
-        padding-top: 0;
-        padding-bottom: 0;
-	}
-
-    .become-a-student button {
-        margin-bottom: 0;
-    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */

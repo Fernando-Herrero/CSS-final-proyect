@@ -587,7 +587,9 @@ p {
 /*section6*/
 .become-a-student {
     background-color: var(--secondary-color);
-    color: var(--bg-color);    
+    color: var(--bg-color);
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 .become-a-student p {
@@ -597,4 +599,10 @@ p {
 .become-a-student button {
     border: 1px solid var(--bg-color);
     margin-bottom: 20px;
+}
+
+.become-a-student-main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
