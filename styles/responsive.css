@@ -232,6 +232,33 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+
+    /*section7*/
+    .mobile-none {
+        display: flex;
+    }
+
+    .cook-section-grid {
+        grid-template: 
+        "master delectable" 1fr
+        "how tips" 1fr / 1fr 1fr;
+    }
+
+    .master {
+        grid-area: master;
+    }
+
+    .delectable {
+        grid-area: delectable;
+    }
+
+    .how {
+        grid-area: how;
+    }
+
+    .tips {
+        grid-area: tips;
+    }
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */

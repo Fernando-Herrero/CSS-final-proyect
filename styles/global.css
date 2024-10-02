@@ -606,3 +606,106 @@ p {
     flex-direction: column;
     gap: 32px;
 }
+
+.become-a-student-picture img {
+    width: 100%;
+}
+
+/*section7*/
+.cook-and-popular {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.cook-popular-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.cook-popular-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cook-popular-title img {
+    width: 28px;
+}
+
+.cook-section-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.cook-section-grid-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.cook-section-grid-article picture {
+    display: flex;
+    align-self: center;
+}
+
+.cook-section-grid-article img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cook-grid-article-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+}
+
+.cook-section-grid-article-calendar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cook-section-grid-article-calendar img {
+    width: 20px;
+}
+
+.mobile-none {
+    display: none;
+}
+
+.popular-by-category-and-country {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ancors-by-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 70%;
+}
+
+.ancor-by {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    color: var(--secondary-color);
+    border-radius: 30px;
+    padding: 8px 16px;
+}
+
+.ancors-by-country {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 70%;
+}
