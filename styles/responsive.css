@@ -435,6 +435,42 @@
 	.become-article {
 		flex: 1;
 	}
+
+    .cook-and-popular {
+        flex-direction: row;
+    }
+
+    .cook-popular-section {
+        flex: 1;
+    }
+
+    /* .cook-and-popular :nth-child(1) {
+        order: 1;
+    }
+
+    .cook-and-popular :nth-child(2) {
+        order: 0;
+    } */
+
+    .popular-section {
+        order: 0;
+    }
+
+    .cook-section {
+        order: 1;
+    }
+
+    .popular-by-category-and-country {
+        padding-left: 40px;
+    }
+
+    .ancors-by-category, .ancors-by-country {
+        padding-left: 10px;
+    }
+
+    .ancors-by-category {
+        width: 100%;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
