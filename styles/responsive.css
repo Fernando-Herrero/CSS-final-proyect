@@ -503,12 +503,17 @@
         gap: 100px;
     }
 
-    /* .footer-copyright-section > .footer-lists {
+    .footer-copyright-section  .footer-list {
         order: 1;
-    } */
+    }
+
+    .footer-copyright-section  .footer-lists {
+        justify-content: flex-start;
+    }
 
     .footer-usa {
         order: 0;
+        padding-right: 60px;
     }
 }
 
