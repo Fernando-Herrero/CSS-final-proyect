@@ -210,21 +210,19 @@
     .become-a-student-main {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: stretch;
         gap: 32px;
     }
 
     .picture-box {
-        display: flex;
         width: 40%;
+        padding: 80px 0;
     }
 
-    .picture-box img {
-        width: 100%;
+    .picture-box-img {
+        height: 100%;
+        border-radius: 16px;
     }
-    /* .become-a-student-main picture {
-        width: 40%;
-    } */
 
     .become-a-student-article {
         width: 60%;
@@ -258,6 +256,18 @@
 
     .tips {
         grid-area: tips;
+    }
+
+    /*footer*/
+    .logo-footer {
+        align-self: flex-start;
+    }
+
+    .footer-lists {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        width: 100%;
     }
 }
 
@@ -398,6 +408,8 @@
 
 	.level-up {
 		position: absolute;
+        bottom: 0;
+        left: 0;
 	}
 
 	.works-article {
@@ -444,21 +456,17 @@
         flex: 1;
     }
 
-    /* .cook-and-popular :nth-child(1) {
+    .cook-and-popular .cook-popular-section:nth-child(1) {
         order: 1;
     }
 
-    .cook-and-popular :nth-child(2) {
-        order: 0;
-    } */
-
-    .popular-section {
+    .cook-and-popular .cook-popular-section:nth-child(2) {
         order: 0;
     }
 
-    .cook-section {
-        order: 1;
-    }
+    /*otra manera
+    .cook-and-popular > :nth-child(1)
+    .cook-and-popular > :nth-child(2)*/
 
     .popular-by-category-and-country {
         padding-left: 40px;
@@ -470,6 +478,37 @@
 
     .ancors-by-category {
         width: 100%;
+    }
+
+    .footer {
+        width: 90%;
+        margin: 0 auto;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer-logo-section {
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .logo-footer {
+        align-self: center;
+    }
+
+    .footer-copyright-section {
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    /* .footer-copyright-section > .footer-lists {
+        order: 1;
+    } */
+
+    .footer-usa {
+        order: 0;
     }
 }
 
