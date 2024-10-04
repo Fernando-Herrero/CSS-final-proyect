@@ -448,6 +448,24 @@
 		flex: 1;
 	}
 
+	.become-a-student {
+		background-color: var(--bg-color);
+	}
+
+	.become-a-student-main {
+		background-color: var(--secondary-color);
+		border-radius: 20px;
+	}
+
+	.picture-box {
+		padding: 0;
+	}
+	
+	.picture-box-img {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
     .cook-and-popular {
         flex-direction: row;
     }
