@@ -6,11 +6,13 @@ El objetivo de este proyecto es desarrollar una página web estilizada que demue
 ## Live Preview
 ![Captura pagina inicial](/docs/cook-eccomerce-website.png) 
 
-Mi resultado: [Live Preview](https://eltiempo-project.netlify.app)
+Mi resultado: [Live Preview](https://css3-finalproject-websitecook.netlify.app)
 
-Pongo un enlace a la web orginal, aun que no la consulte para realizar este ejercicio. Lo unico que tuvve para llegar a este resultado fue una captura de pantalla de la web completa, a partir de la cual tuve que plantear toda la web.
+Este trabajo fue realizado visualizando una plantilla en Figma con la web original creada por alguna persona anteriormente.
 
-Fuente original: [Enlace a web original](https://web.archive.org/web/20240720005816/https://www.eltiempo.es/)
+Fuente original Desktop: [Enlace a plantilla original](/docs/Landing%20Desktop.jpg)
+Fuente original tablet: [Enlace a plantilla original](/docs/Landing%20Page%20Tablet.png)
+Fuente original mobile: [Enlace a plantilla original](/docs/Landing%20Page%20Phone.jpg)
 
 
 
@@ -51,13 +53,10 @@ Este proyecto incluye los siguientes componentes clave:
 6. **Barra de Navegación**:
    - Menú adaptable con diseño de hamburguesa para pantallas pequeñas.
 
-7. **Formulario Estilizado**:
-   - Creación de un formulario con estilos personalizados y efectos interactivos (`:hover`, `:focus`).
-
-8. **Imágenes Responsivas**:
+7. **Imágenes Responsivas**:
    - Imágenes adaptadas con `width: 100%` y uso opcional del atributo `srcset`.
 
-### Requisitos Avanzados (Nivel Samurai)
+### Requisitos Avanzados
 - **Metodología Mobile First**: Diseño que crece desde pantallas móviles hacia dispositivos más grandes.
 - **Flexbox y Grid en Combinación**: Uso de CSS Grid para cuadrículas y Flexbox para posicionamiento.
 - **Variables CSS**: Definición de colores, fuentes y valores reutilizables.
@@ -74,6 +73,3 @@ Este proyecto incluye los siguientes componentes clave:
   - **Solución**: Nombrar las clases siguiendo la estructura `bloque__elemento--modificador`.
 
 ---
-
-_Este documento ha sido creado como parte de mi máster en programación._
-
