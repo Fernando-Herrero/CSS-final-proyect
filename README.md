@@ -19,7 +19,6 @@ Fuente original mobile: [Enlace a plantilla original](/docs/Landing%20Page%20Pho
 ## Tecnologías Usadas
 - **HTML5** - Estructura semántica del proyecto.
 - **CSS3 (Flexbox, Grid)** - Diseño adaptable y manejo de contenedores.
-- **SASS (opcional)** - Preprocesador CSS para optimización del código.
 - **Google Fonts** - Tipografía personalizada.
 - **CSS Variables** - Uso de variables para un diseño consistente y escalable.
 
@@ -60,7 +59,6 @@ Este proyecto incluye los siguientes componentes clave:
 - **Metodología Mobile First**: Diseño que crece desde pantallas móviles hacia dispositivos más grandes.
 - **Flexbox y Grid en Combinación**: Uso de CSS Grid para cuadrículas y Flexbox para posicionamiento.
 - **Variables CSS**: Definición de colores, fuentes y valores reutilizables.
-- **SASS** (Opcional): Uso de preprocesador CSS para optimizar el desarrollo.
 
 ### Retos y Soluciones
 - **Reto 1**: Diseñar una estructura completamente responsive.
